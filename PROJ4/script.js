@@ -142,12 +142,121 @@
 
 // Ternary operator
 
-let a=10
+// let a=10
 
-let show = a>5 ? "a is greater than 5": "a is not greater than 5"
+// let show = a>5 ? "a is greater than 5": "a is not greater than 5"
 
-console.log(show);
+// console.log(show);
+
+//------------------------
+
+
+
+// // program for a simple calculator
+
+// // take the operator input
+// const operator = prompt('Enter operator ( either +, -, * or / ): ');
+
+// // take the operand input
+// const number1 = parseFloat(prompt('Enter first number: '));
+// const number2 = parseFloat(prompt('Enter second number: '));
+
+// let result;
+
+// // using if...else if... else
+// if (operator == '+') {
+//     result = number1 + number2;
+// }
+// else if (operator == '-') {
+//     result = number1 - number2;
+// }
+// else if (operator == '*') {
+//     result = number1 * number2;
+// }
+// else {
+//     result = number1 / number2;
+// }
+
+// // display the result
+// console.log(`${number1} ${operator} ${number2} = ${result}`);
+
+
+
+// --------------------------------
+
+// // Switch case
+// let uname = "naman"
+// switch(uname){
+//     case "naman": console.log(`Hello, ${uname}`);break;
+//     case "raj": console.log(`Hello, ${uname}`);break;
+//     default: console.log("Invalid Username");break;
+// }
+
+// let days = 28
+// switch(days){
+//     case 28||29: console.log("february"); break;
+//     case 30: console.log("April June  September November");break;
+//     case 31: console.log("Jan Mar May july aug Oct Dec"); break;
+//     default: console.log("Not days in any month");
+// }
 
 
 
 
+
+//-------------------------------
+// // program for a simple calculator
+// let result;
+
+// // take the operator input
+// const operator = prompt('Enter operator ( either +, -, * or / ): ');
+
+// // take the operand input
+// const number1 = parseFloat(prompt('Enter first number: '));
+// const number2 = parseFloat(prompt('Enter second number: '));
+
+// switch(operator) {
+//     case '+':
+//          result = number1 + number2;
+//         console.log(`${number1} + ${number2} = ${result}`);
+//         break;
+
+//     case '-':
+//          result = number1 - number2;
+//         console.log(`${number1} - ${number2} = ${result}`);
+//         break;
+
+//     case '*':
+//          result = number1 * number2;
+//         console.log(`${number1} * ${number2} = ${result}`);
+//         break;
+
+//     case '/':
+//          result = number1 / number2;
+//         console.log(`${number1} / ${number2} = ${result}`);
+//         break;
+
+//     default:
+//         console.log('Invalid operator');
+//         break;
+// }
+
+// --------------------
+// for loop
+// for(let i=1; i<=10; i++){
+//     console.log("for loop", i);
+// }
+
+// while loop
+// let i=1
+// while(i<=0){
+//     console.log("while loop", i);
+//     i++
+// }
+
+// Do while loop
+let i=1
+do{
+    console.log("Do-while loop", i);
+    i++
+}while(i<=0)
